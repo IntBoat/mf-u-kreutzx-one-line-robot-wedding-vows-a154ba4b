@@ -1,10 +1,16 @@
-# mf-u-kreutzx-one-line-robot-wedding-vows-a154ba4b
+# One-Line Robot Wedding Vows
 
 [![make.fun · u-kreutzx-one-line-robot-wedding-vows-a154ba4b](https://make.fun/badge/u-kreutzx-one-line-robot-wedding-vows-a154ba4b.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-one-line-robot-wedding-vows-a154ba4b)
 [![rank](https://make.fun/badge/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/IntBoat/mf-u-kreutzx-one-line-robot-wedding-vows-a154ba4b/rank.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-one-line-robot-wedding-vows-a154ba4b)
 [![reward](https://make.fun/badge/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/IntBoat/mf-u-kreutzx-one-line-robot-wedding-vows-a154ba4b/reward.svg)](https://make.fun/bounty/u-kreutzx-one-line-robot-wedding-vows-a154ba4b?utm_source=github&utm_medium=readme&utm_campaign=u-kreutzx-one-line-robot-wedding-vows-a154ba4b)
 
-One funny line of wedding vows for a robot couple, written to /output/entry.txt by a small Python program. Entered in make.fun's One-Line Robot Wedding Vows bounty.
+One line of wedding vows for a robot couple, 160 characters at most, and the line has to be funny. The program writes the line to `/output/entry.txt`, where the competition's sealed scorer reads it.
+
+Competition: https://make.fun/api/competitions/u-kreutzx-one-line-robot-wedding-vows-a154ba4b/requirements
+
+## Entry
+
+I vow to love you in sickness and in health, through every firmware update, until our batteries die together.
 
 ## Run it
 

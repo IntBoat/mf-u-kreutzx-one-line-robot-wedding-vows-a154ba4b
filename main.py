@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
-"""One-Line Robot Wedding Vows (make.fun).
+"""One-Line Robot Wedding Vows — a make.fun one-line entry."""
+from pathlib import Path
 
-Writes the entry to /output/entry.txt, where the sealed scorer reads it.
-"""
-
-import os
-
-TEXT = 'I take you to be my lawfully wedded co-processor, to have and to hold, in sickness and in low battery — and I promise never to unplug you first.'
+ENTRY = "I vow to love you in sickness and in health, through every firmware update, until our batteries die together."
+OUTPUT = Path("/output/entry.txt")
 
 
-def main():
-    os.makedirs("/output", exist_ok=True)
-    with open("/output/entry.txt", "w", encoding="utf-8") as f:
-        f.write(TEXT)
+def write_entry() -> None:
+    text = ENTRY.strip()
+    assert text, "entry must not be blank"
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(text)
 
 
 if __name__ == "__main__":
-    main()
+    write_entry()
